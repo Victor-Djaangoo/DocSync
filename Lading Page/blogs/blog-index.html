@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Insights e Tendências</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="blog-styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="../index.html">
+                    <img src="#" alt="Revcent" class="logo">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#features">Features</a></li>
+                <li><a href="../index.html#pricing">Pricing</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li><a href="blog-index.html" class="active">Blog</a></li>
+            </ul>
+            <button class="btn btn-primary">Get Started</button>
+        </nav>
+    </header>
+
+    <!-- Blog Index Content -->
+    <main class="blog-index-main">
+        <div class="blog-container">
+            <!-- Blog Header -->
+            <header class="blog-index-header">
+                <h1>Blog</h1>
+                <p>Insights, tendências e conhecimentos para impulsionar sua organização</p>
+            </header>
+
+            <!-- Featured Post -->
+            <section class="featured-post">
+                <article class="featured-article">
+                    <div class="featured-image">
+                        <img src="#" alt="Featured Post" class="featured-img">
+                        <span class="featured-badge">Destaque</span>
+                    </div>
+                    <div class="featured-content">
+                        <div class="post-meta">
+                            <span class="post-category">Caso de Sucesso</span>
+                            <span class="post-date">Data mais recente</span>
+                        </div>
+                        <h2><a href="revamping-membership-model.html">Descobri que cobrar não precisa ser chato – e você também pode</a></h2>
+                        <p>Como unir gentileza e cobrança juntos?</p>
+                        <a href="facilidadecobranca.html" class="read-more-btn">Ler Artigo Completo →</a>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Blog Posts Grid -->
+            <section class="blog-posts">
+                <h2>Todos os Artigos</h2>
+                
+                <!-- Filter Categories -->
+                <div class="blog-filters">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="processo">Processos</button>
+                    <button class="filter-btn" data-filter="gestao">Gestão</button>
+                    <button class="filter-btn" data-filter="caso-sucesso">Casos de Sucesso</button>
+                </div>
+
+                <div class="blog-posts-grid">
+                    <!-- Post 1 -->
+                    <article class="blog-post-card" data-category="processo">
+                        <div class="post-image">
+                            <img src="#" alt="Safeguarding Processes">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Processo</span>
+                                <span class="post-date">Data da publicação</span>
+                            </div>
+                            <h3><a href="creating-streamlined-safeguarding-processes.html">Creating Streamlined Safeguarding Processes with OneRen</a></h3>
+                            <p>Como otimizar processos de proteção e segurança em sua organização através de tecnologia inovadora.</p>
+                            <div class="post-footer">
+                                <span class="read-time">5 min de leitura</span>
+                                <a href="creating-streamlined-safeguarding-processes.html" class="read-more">Ler mais →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post 2 -->
+                    <article class="blog-post-card" data-category="gestao">
+                        <div class="post-image">
+                            <img src="#" alt="Managing Responsibilities">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Gestão</span>
+                                <span class="post-date">Data da publicação</span>
+                            </div>
+                            <h3><a href="managing-responsibilities.html">What are your responsibilities and how can you manage them?</a></h3>
+                            <p>Um guia completo para identificar suas responsabilidades e desenvolver estratégias eficazes de gestão.</p>
+                            <div class="post-footer">
+                                <span class="read-time">7 min de leitura</span>
+                                <a href="managing-responsibilities.html" class="read-more">Ler mais →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post 3 -->
+                    <article class="blog-post-card" data-category="caso-sucesso">
+                        <div class="post-image">
+                            <img src="#" alt="Membership Model">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Caso de Sucesso</span>
+                                <span class="post-date">Data da publicação</span>
+                            </div>
+                            <h3><a href="revamping-membership-model.html">Revamping the Membership Model with Triathlon Australia</a></h3>
+                            <p>Como a Triathlon Australia revolucionou seu modelo de associação e aumentou o engajamento dos membros.</p>
+                            <div class="post-footer">
+                                <span class="read-time">6 min de leitura</span>
+                                <a href="revamping-membership-model.html" class="read-more">Ler mais →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <button class="pagination-btn prev" disabled>← Anterior</button>
+                    <span class="pagination-info">Página 1 de 1</span>
+                    <button class="pagination-btn next" disabled>Próximo →</button>
+                </div>
+            </section>
+
+            <!-- Newsletter Signup -->
+            <section class="blog-newsletter">
+                <div class="newsletter-content">
+                    <h2>Receba nossas atualizações</h2>
+                    <p>Fique por dentro dos últimos insights e tendências. Sem spam, apenas conteúdo de qualidade.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu email" required>
+                        <button type="submit" class="btn btn-primary">Inscrever-se</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="#" alt="Revcent" class="footer-logo">
+                <p>Copyright © 2020 Landify UI Kit.<br>All rights reserved</p>
+                <div class="social-links">
+                    <a href="#"><img src="#" alt="Instagram"></a>
+                    <a href="#"><img src="#" alt="Dribbble"></a>
+                    <a href="#"><img src="#" alt="Twitter"></a>
+                    <a href="#"><img src="#" alt="YouTube"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="blog-index.html">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Stay up to date</h4>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">→</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="blog-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preços - Escolha o Plano Ideal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="precos-styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <img src="#" alt="Revcent" class="logo">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pricing">Preços</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button class="btn btn-primary">Comece Agora</button>
+        </nav>
+    </header>
+
+    <!-- Pricing Hero Section -->
+    <section class="pricing-hero">
+        <div class="pricing-container">
+            <h1>Escolha o Plano Perfeito</h1>
+            <p>Planos flexíveis que crescem com o seu negócio. Sem taxas ocultas, sem surpresas.</p>
+            
+            <!-- Billing Toggle -->
+            <div class="billing-toggle">
+                <span class="toggle-label">Mensal</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="billing-toggle" class="toggle-input">
+                    <label for="billing-toggle" class="toggle-slider">
+                        <span class="toggle-button"></span>
+                    </label>
+                </div>
+                <span class="toggle-label">Anual <span class="discount-badge">20% OFF</span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans -->
+    <section class="pricing-plans">
+        <div class="pricing-container">
+            <div class="plans-grid">
+                
+                <!-- Plano Básico -->
+                <div class="plan-card basic">
+                    <div class="plan-header">
+                        <h3>Básico</h3>
+                        <p class="plan-description">Ideal para pequenos negócios</p>
+                        <div class="price-container">
+                            <span class="currency">R$</span>
+                            <span class="price monthly" data-monthly="29" data-annual="232">97</span>
+                            <span class="period">/mês</span>
+                        </div>
+                        <p class="annual-savings" style="display: none;">Economize R$ 116/ano</p>
+                    </div>
+                    
+                    <div class="plan-features">
+                        <ul>
+                            <li><span class="checkmark">✓</span> Até 50 clientes atendidos</li>
+                            <li><span class="checkmark">✓</span> 100 mensegens enviadas por mês</li>
+                            <li><span class="checkmark">✓</span> Envio de boletos manual (por planilha)</li>
+                            <li><span class="checkmark">✓</span> Relatórios básicos</li>
+                            <li><span class="checkmark">✓</span> Integrações essenciais</li>
+                            <li><span class="unavailable">✗</span> Suporte Prioritário</li>
+                            <li><span class="unavailable">✗</span> Analytics avançados</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plan-cta">
+                        <button class="btn btn-outline">Começar Grátis</button>
+                        <p class="trial-info">Teste grátis por 14 dias</p>
+                    </div>
+                </div>
+
+                <!-- Plano Completo -->
+                <div class="plan-card complete popular">
+                    <div class="popular-badge">Mais Popular</div>
+                    <div class="plan-header">
+                        <h3>Completo</h3>
+                        <p class="plan-description">Perfeito para empresas em crescimento</p>
+                        <div class="price-container">
+                            <span class="currency">R$</span>
+                            <span class="price monthly" data-monthly="79" data-annual="632">297</span>
+                            <span class="period">/mês</span>
+                        </div>
+                        <p class="annual-savings" style="display: none;">Economize R$ 316/ano</p>
+                    </div>
+                    
+                    <div class="plan-features">
+                        <ul>
+                            <li><span class="checkmark">✓</span> Até 200 clientes atendidos</li>
+                            <li><span class="checkmark">✓</span> 500 mensegens enviadas por mês</li>
+                            <li><span class="checkmark">✓</span> Envio de boletos automatico (vinculado com o banco)</li>
+                            <li><span class="checkmark">✓</span> Relatórios avançados</li>
+                            <li><span class="checkmark">✓</span> Todas as integrações</li>
+                            <li><span class="checkmark">✓</span> Dashboard personalizado</li>
+                            <li><span class="unavailable">✗</span> Gerente dedicado</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plan-cta">
+                        <button class="btn btn-primary">Começar Agora</button>
+                        <p class="trial-info">Teste grátis por 14 dias</p>
+                    </div>
+                </div>
+
+                <!-- Plano Premium -->
+                <div class="plan-card premium">
+                    <div class="plan-header">
+                        <h3>Premium</h3>
+                        <p class="plan-description">Solução completa para grandes empresas</p>
+                        <div class="price-container">
+                            <span class="currency">R$</span>
+                            <span class="price monthly" data-monthly="149" data-annual="1192">597</span>
+                            <span class="period">/mês</span>
+                        </div>
+                        <p class="annual-savings" style="display: none;">Economize R$ 596/ano</p>
+                    </div>
+                    
+                    <div class="plan-features">
+                        <ul>
+                            <li><span class="checkmark">✓</span> Usuários ilimitados</li>
+                            <li><span class="checkmark">✓</span> 2.000 mensagens enviadas por mês</li>
+                            <li><span class="checkmark">✓</span> Envio de boletos automatico + Pix</li>
+                            <li><span class="checkmark">✓</span> Relatórios personalizados com seus dados</li>
+                            <li><span class="checkmark">✓</span> Suporte pelo Whatsapp (2h)</li>
+                            <li><span class="checkmark">✓</span> Gerente de conta dedicado</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plan-cta">
+                        <button class="btn btn-secondary">Falar com Vendas</button>
+                        <p class="trial-info">Consultoria gratuita</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Comparison -->
+    <section class="features-comparison">
+        <div class="pricing-container">
+            <h2>Compare Todos os Recursos</h2>
+            <p>Veja lado a lado o que cada plano oferece</p>
+            
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Recursos</th>
+                            <th>Básico</th>
+                            <th>Completo</th>
+                            <th>Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Clientes Atendidos</td>
+                            <td>Até 50</td>
+                            <td>Até 25</td>
+                            <td>Ilimitados</td>
+                        </tr>
+                        <tr>
+                            <td>Armazenamento</td>
+                            <td>10GB</td>
+                            <td>100GB</td>
+                            <td>Ilimitado</td>
+                        </tr>
+                        <tr>
+                            <td>Suporte</td>
+                            <td>Email</td>
+                            <td>Chat + Email</td>
+                            <td>24/7 Prioritário</td>
+                        </tr>
+                        <tr>
+                            <td>Relatórios</td>
+                            <td>Básicos</td>
+                            <td>Avançados</td>
+                            <td>Personalizados</td>
+                        </tr>
+                        <tr>
+                            <td>Gerente Dedicado</td>
+                            <td class="unavailable">✗</td>
+                            <td class="unavailable">✗</td>
+                            <td class="available">✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="pricing-faq">
+        <div class="pricing-container">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Posso cancelar a qualquer momento?</h3>
+                    <p>Sim! Você pode cancelar sua assinatura a qualquer momento sem taxas de cancelamento.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Como funciona o teste gratuito?</h3>
+                    <p>Oferecemos 14 dias grátis em todos os planos. Não cobramos cartão de crédito durante o teste.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Posso alterar meu plano depois?</h3>
+                    <p>Claro! Você pode fazer upgrade ou downgrade do seu plano a qualquer momento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="pricing-final-cta">
+        <div class="pricing-container">
+            <h2>Pronto para começar?</h2>
+            <div class="cta-buttons">
+                <button class="btn btn-primary btn-large">Começar Teste Grátis</button>
+                <button class="btn btn-outline btn-large">Falar com Especialista</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="#" alt="Revcent" class="footer-logo">
+                <p>Copyright © 2004 V.T. MENDES INFORMATICA.<br>Todos Direitos Reservados</p>
+                <div class="social-links">
+                    <a href="#"><img src="#" alt="Instagram"></a>
+                    <a href="#"><img src="#" alt="Dribbble"></a>
+                    <a href="#"><img src="#" alt="Twitter"></a>
+                    <a href="#"><img src="#" alt="YouTube"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="blog/blog-index.html">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Stay up to date</h4>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">→</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="pricing-script.js"></script>
+</body>
+</html>
